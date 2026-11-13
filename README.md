@@ -11,6 +11,8 @@ I'm a software architect and hands-on technical lead, and a partner at [IdeaBlad
 
 I wrote IdeaBlade's [Punch](https://github.com/IdeaBlade/Punch) framework for data-driven XAML apps (Caliburn.Micro + DevForce + Entity Framework). Its TempHire reference app started out in Silverlight and WPF. I've rewritten it, with the help of AI, as a modern line-of-business web app: **Angular 22** (standalone, zoneless, signals) with PrimeNG, **Breeze 3**, **ASP.NET Core 10** and **EF Core 10**. Every ported file names the file it came from, and the conversion notes map the old architecture onto the new one, so it doubles as a guide for migrating legacy .NET desktop apps to the web.
 
+It also goes beyond the original. It's **multi-tenant**: EF Core global query filters, with the tenant carried in the JWT. And it has **Quinn**, an AI assistant that answers questions about the staffing data. Quinn is built in .NET with Microsoft.Extensions.AI and an MCP server built with the MCP C# SDK, and runs on a local Ollama model or Claude. The agent calls its tools as the signed-in user, so it only ever sees that user's company's data.
+
 ### AI showcase: [rag-example](https://github.com/marcelgood/rag-example)
 
 A step-by-step reference implementation in TypeScript/Node.js, where every change is measured by evals:
