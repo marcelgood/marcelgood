@@ -7,6 +7,10 @@ I'm a software architect and hands-on technical lead, and a partner at [IdeaBlad
 - **Modernization:** moving established .NET Framework, desktop and client-server applications onto modern .NET and Angular, one step at a time, with automated tests in CI.
 - **AI in business applications:** we're proving out AI with clients at IdeaBlade, and I build in public to try ideas and measure what works.
 
+### Modernization showcase: [TempHire](https://github.com/Breeze/temphire.angular)
+
+I wrote IdeaBlade's [Punch](https://github.com/IdeaBlade/Punch) framework for data-driven XAML apps (Caliburn.Micro + DevForce + Entity Framework). Its TempHire reference app started out in Silverlight and WPF. I've rewritten it, with the help of AI, as a modern line-of-business web app: **Angular 22** (standalone, zoneless, signals) with PrimeNG, **Breeze 3**, **ASP.NET Core 10** and **EF Core 10**. Every ported file names the file it came from, and the conversion notes map the old architecture onto the new one, so it doubles as a guide for migrating legacy .NET desktop apps to the web.
+
 ### AI showcase: [rag-example](https://github.com/marcelgood/rag-example)
 
 A step-by-step reference implementation in TypeScript/Node.js, where every change is measured by evals:
@@ -23,7 +27,7 @@ One result: re-ranking raised first-place retrieval accuracy from 60% to 88%, wh
 
 ### Open source
 
-I'm part of the IdeaBlade team behind the [Breeze](https://github.com/Breeze) data management libraries, BreezeJS for JavaScript/TypeScript and BreezeSharp for .NET, used by companies around the world.
+I'm part of the IdeaBlade team behind the [Breeze](https://github.com/Breeze) data management libraries, BreezeJS for JavaScript/TypeScript and BreezeSharp for .NET, used by companies around the world, including [Breeze 3](https://github.com/Breeze/breeze-client-v3), the ESM rewrite for modern TypeScript released in 2026.
 
 ### Connect
 
