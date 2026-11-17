@@ -13,6 +13,8 @@ I wrote IdeaBlade's [Punch](https://github.com/IdeaBlade/Punch) framework for da
 
 It also goes beyond the original. It's **multi-tenant**: EF Core global query filters, with the tenant carried in the JWT. And it has **Quinn**, an AI assistant that answers questions about the staffing data. Quinn is built in .NET with Microsoft.Extensions.AI and an MCP server built with the MCP C# SDK, and runs on a local Ollama model or Claude. The agent calls its tools as the signed-in user, so it only ever sees that user's company's data. Its answers stream as the model writes. With the same prompt and tools, Claude used the tools right away, while a small local model (qwen3:4b) needed explicit prompt rules and still missed about one time in four.
 
+**Now also in React: [temphire.react](https://github.com/Breeze/temphire.react).** For teams weighing a move from Angular to React, I've converted TempHire again, with the help of AI: **React 19** with Mantine, React Router and Vite, on the same Breeze 3 and .NET server, with the same screens and behaviour. Every file names its Angular counterpart, and a guide to React for Angular developers maps the concepts side by side, from signals and dependency injection to hooks and context, with examples from both versions.
+
 ### AI showcase: [rag-example](https://github.com/marcelgood/rag-example)
 
 A step-by-step reference implementation in TypeScript/Node.js, where every change is measured by evals:
