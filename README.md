@@ -5,7 +5,7 @@ I'm a software architect and hands-on technical lead, and a partner at [IdeaBlad
 - **What I work in:** C# and .NET (ASP.NET Core), TypeScript with Angular and React, SQL Server and PostgreSQL, Microsoft Azure, CI/CD with GitHub Actions and Azure DevOps.
 - **Angular from the start:** I was part of the IdeaBlade team Google engaged during the Angular 2 beta for enterprise-development feedback; IdeaBlade wrote Angular's original documentation, and we validated it by building real applications on the beta.
 - **Modernization:** moving established .NET Framework, desktop and client-server applications onto modern .NET and Angular, one step at a time, with automated tests in CI.
-- **AI in business applications:** we're proving out AI with clients at IdeaBlade, and I build in public to try ideas and measure what works. I use Claude Code every day: TempHire, its React version and IdeaBlade Validation were all built with it, with me directing the work and reviewing and testing every change before it's merged.
+- **AI in business applications:** we're working with clients at IdeaBlade on early-stage AI projects, and I build in public to try ideas and measure what works. I use Claude Code every day: TempHire and its React version were built with it, with me directing the work and reviewing and testing every change before it's merged. I also used it to extract IdeaBlade Validation, which I wrote by hand in three projects over several years, into a standalone library.
 
 ### Modernization showcase: [TempHire](https://github.com/Breeze/temphire.angular)
 
