@@ -23,7 +23,7 @@ It also goes beyond the original:
 
 **Now also in React: [temphire.react](https://github.com/Breeze/temphire.react).** For teams weighing a move from Angular to React, I've converted TempHire again: **React 19** with Mantine, React Router and Vite, on the same Breeze 3 and .NET server, with the same screens and behaviour. Every file names its Angular counterpart, and a guide to React for Angular developers maps the concepts side by side, from signals and dependency injection to hooks and context, with examples from both versions.
 
-### Validation framework: [IdeaBlade Validation](https://github.com/Breeze/ideablade-validation) (preview)
+### Validation framework: [IdeaBlade Validation](https://github.com/Breeze/ideablade-validation)
 
 Most applications tie validation to their forms, so the rules for one entity end up spread across every screen that edits it, and they drift apart. IdeaBlade Validation puts the rules with the data: they live in one JSON metadata structure that the browser and the server share, and much of it comes from the server model for free (a `varchar(255)` column becomes a 255-character limit everywhere).
 
@@ -32,7 +32,7 @@ Most applications tie validation to their forms, so the rules for one entity end
 - **No `eval`:** conditions run in a sandboxed expression interpreter that works under a strict Content Security Policy, with one grammar on both platforms.
 - **Angular** (signals, reactive, template-driven and Signal Forms) and **React** (hooks) integrations, and a ready-made **Breeze 3** integration built only on public extension points, so any data layer can plug in.
 
-TempHire uses it in both versions. The packages aren't on npm or NuGet yet.
+TempHire uses it in both versions. It's on npm as [`ideablade-validation`](https://www.npmjs.com/package/ideablade-validation) and on NuGet as [`IdeaBlade.Validation`](https://www.nuget.org/packages/IdeaBlade.Validation).
 
 ### AI showcase: [rag-example](https://github.com/marcelgood/rag-example)
 
