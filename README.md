@@ -34,6 +34,8 @@ Most applications tie validation to their forms, so the rules for one entity end
 
 TempHire uses it in both versions. It's on npm as [`ideablade-validation`](https://www.npmjs.com/package/ideablade-validation) and on NuGet as [`IdeaBlade.Validation`](https://www.nuget.org/packages/IdeaBlade.Validation).
 
+**Editing the rules: [IdeaBlade Validation Editor](https://github.com/Breeze/ideablade-validation-editor).** A desktop app, built with Electron and Angular, for writing the rules through forms instead of raw JSON, in JSON, TypeScript or C# files. It reads the application's real models from Breeze metadata and from TypeScript and C# source, explains and tests regular expressions (including where the browser and the .NET server read a pattern differently), offers code completion in conditions, and checks everything with the library itself. A GitHub Actions workflow tests it and builds the installers for Windows, macOS and Linux. It's an early prototype that I built in a day with Claude Code.
+
 ### AI showcase: [rag-example](https://github.com/marcelgood/rag-example)
 
 A step-by-step reference implementation in TypeScript/Node.js, where every change is measured by evals:
