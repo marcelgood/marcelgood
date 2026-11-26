@@ -25,7 +25,9 @@ It also goes beyond the original:
 
 ### Validation framework: [IdeaBlade Validation](https://github.com/Breeze/ideablade-validation)
 
-Most applications tie validation to their forms, so the rules for one entity end up spread across every screen that edits it, and they drift apart. IdeaBlade Validation puts the rules with the data: they live in one JSON metadata structure that the browser and the server share, and much of it comes from the server model for free (a `varchar(255)` column becomes a 255-character limit everywhere).
+A cross-platform rules engine for validation, in TypeScript and .NET. Most applications tie validation to their forms, so the rules for one entity end up spread across every screen that edits it, and they drift apart. IdeaBlade Validation puts the rules with the data: they live in one JSON metadata structure that the browser and the server share, and much of it comes from the server model for free (a `varchar(255)` column becomes a 255-character limit everywhere).
+
+It isn't another Zod. Schema libraries like Zod describe the shape of a value in TypeScript code, parse untrusted input at an API boundary and infer types from it, and they're great at that. IdeaBlade Validation keeps a domain's business rules as data, shared by the browser and a .NET server, and validates live data with them continuously, up to whole entity stores and rules across entities. The two work side by side ([how they compare](https://github.com/Breeze/ideablade-validation#compared-with-zod-and-other-schema-libraries)).
 
 - **TypeScript and .NET**, with matching implementations; a shared conformance suite runs in both the Vitest and xUnit test suites, so the two can't drift apart. The .NET library targets .NET Standard 2.0, .NET 8 and .NET 10.
 - **Sync and async validators**, plugged in by name through dependency injection, and **continuous validation** of whole entity stores, so errors show wherever they matter, not only in forms.
