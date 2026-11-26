@@ -23,7 +23,7 @@ It also goes beyond the original:
 
 **Now also in React: [temphire.react](https://github.com/Breeze/temphire.react).** For teams weighing a move from Angular to React, I've converted TempHire again: **React 19** with Mantine, React Router and Vite, on the same Breeze 3 and .NET server, with the same screens and behaviour. Every file names its Angular counterpart, and a guide to React for Angular developers maps the concepts side by side, from signals and dependency injection to hooks and context, with examples from both versions.
 
-### Validation framework: [IdeaBlade Validation](https://github.com/Breeze/ideablade-validation)
+### Validation rules engine: [IdeaBlade Validation](https://github.com/Breeze/ideablade-validation)
 
 A cross-platform rules engine for validation, in TypeScript and .NET. Most applications tie validation to their forms, so the rules for one entity end up spread across every screen that edits it, and they drift apart. IdeaBlade Validation puts the rules with the data: they live in one JSON metadata structure that the browser and the server share, and much of it comes from the server model for free (a `varchar(255)` column becomes a 255-character limit everywhere).
 
