@@ -36,7 +36,7 @@ It isn't another Zod. Schema libraries like Zod describe the shape of a value in
 - **No `eval`:** conditions run in a sandboxed expression interpreter that works under a strict Content Security Policy, with one grammar on both platforms.
 - **Angular** (signals, reactive, template-driven and Signal Forms) and **React** (hooks) integrations, and a ready-made **Breeze 3** integration built only on public extension points, so any data layer can plug in.
 
-TempHire uses it in both versions. It's on npm as [`ideablade-validation`](https://www.npmjs.com/package/ideablade-validation) and on NuGet as [`IdeaBlade.Validation`](https://www.nuget.org/packages/IdeaBlade.Validation).
+TempHire uses it in both versions. It's on npm as [`ideablade-validation`](https://www.npmjs.com/package/ideablade-validation) and on NuGet as [`IdeaBlade.Validation`](https://www.nuget.org/packages/IdeaBlade.Validation), currently at version [0.1.1](https://github.com/Breeze/ideablade-validation/releases/tag/v0.1.1).
 
 **Editing the rules: [IdeaBlade Validation Editor](https://github.com/Breeze/ideablade-validation-editor).** A desktop app, built with Electron and Angular, for writing the rules through forms instead of raw JSON, in JSON, TypeScript or C# files. It reads the application's real models from Breeze metadata and from TypeScript and C# source, explains and tests regular expressions (including where the browser and the .NET server read a pattern differently), offers code completion in conditions, and checks everything with the library itself. A GitHub Actions workflow tests it and builds the installers for Windows, macOS and Linux. It's an early prototype that I built in a day with Claude Code.
 
